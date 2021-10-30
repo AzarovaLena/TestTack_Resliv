@@ -1,10 +1,7 @@
 package driver;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
-import org.testng.ITestResult;
 import properties.PropertyReader;
 
 import static driver.DriverCreation.setDriver;
