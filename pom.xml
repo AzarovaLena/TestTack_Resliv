@@ -14,6 +14,8 @@
         <testng.vertion>7.4.0</testng.vertion>
         <selenium.vertion>3.141.59</selenium.vertion>
         <webdrivermanager.vertion>5.0.3</webdrivermanager.vertion>
+        <lombok.vertion>1.18.20</lombok.vertion>
+        <log4j.vertion>2.14.1</log4j.vertion>
         <suite></suite>
 
 
@@ -73,6 +75,17 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager.vertion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.vertion}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.vertion}</version>
         </dependency>
 
     </dependencies>

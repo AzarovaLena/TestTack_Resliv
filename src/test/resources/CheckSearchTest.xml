@@ -4,7 +4,7 @@
     <parameter name="env" value="aviasales"></parameter>
     <test name="checkSearchOnHomePage" >
         <classes>
-            <class name="pageObjectTest.HomePageTest">
+            <class name="pageObjectTest.CheckSearchTest">
             </class>
         </classes>
     </test>
